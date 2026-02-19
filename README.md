@@ -105,6 +105,7 @@ Z X C V  -> A 0 B F
 From the build directory:
 
 ```bash.\chip8.exe 15 2 "..\roms\Pong (1 player).ch8"
+```
 
 ### Supported ROMs
 - Pong
