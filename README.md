@@ -69,3 +69,17 @@ This project demonstrates:
 ## Demo
 
 ![CHIP-8 Pong](pong-demo.png)
+
+## 🎮 Controls
+1 2 3 4  -> 1 2 3 C
+Q W E R  -> 4 5 6 D
+A S D F  -> 7 8 9 E
+Z X C V  -> A 0 B F
+ 
+## ▶️ Run
+<pre> ```bash .\chip8.exe 15 2 "..\roms\Pong (1 player).ch8" ``` </pre>
+
+### Supported ROMs
+- Pong
+- Space Invaders
+- Tetris
