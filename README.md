@@ -1,17 +1,27 @@
 # CHIP-8 Emulator
 
-## Overview
-CHIP-8 is a simple interpreted programming language used in vintage computer systems.
+## 🎮 Overview
 
-This project implements a CHIP-8 emulator capable of loading and executing classic ROMs like Pong and Tetris by emulating the CPU, memory, display, timers, and keypad input.
+This project is a **CHIP-8 Emulator** built in **C++ using SDL2**.
 
-## 🎮Features
-- Opcode decoding and execution
-- 4KB memory emulation
-- 64x32 monochrome display rendering using SDL
-- Hex keypad input handling
-- Delay and sound timers
+It replicates the CHIP-8 virtual machine by implementing:
+
+- Instruction decoding & execution
+- Memory and stack management
+- Graphics rendering
+- Keyboard input handling
 - ROM loading and execution
+
+The emulator can run classic CHIP-8 games like Pong, Space Invaders, and Tetris.
+
+## ✨ Features
+
+- 35 CHIP-8 opcodes implemented
+- Accurate 64×32 monochrome display rendering
+- Real-time keyboard input mapping
+- Adjustable execution speed
+- Cross-platform build with CMake
+- SDL2-based graphics output
 
 ## 🛠How to Build
 
@@ -66,18 +76,35 @@ This project demonstrates:
 - Graphics rendering using SDL
 - Event-driven input handling
 
-## Demo
+## 🛠 Build Instructions
+
+```bash
+mkdir build
+cd build
+cmake ..
+cmake --build .
+
+
+## 🎥 Demo
+
+Gameplay running inside the emulator:
 
 ![CHIP-8 Pong](pong-demo.png)
 
 ## 🎮 Controls
+
+CHIP-8 keypad mapped to keyboard:
+
 1 2 3 4  -> 1 2 3 C
 Q W E R  -> 4 5 6 D
 A S D F  -> 7 8 9 E
 Z X C V  -> A 0 B F
  
-## ▶️ Run
-<pre> ```bash .\chip8.exe 15 2 "..\roms\Pong (1 player).ch8" ``` </pre>
+## ▶️ Run the Emulator
+
+From the build directory:
+
+```bash.\chip8.exe 15 2 "..\roms\Pong (1 player).ch8"
 
 ### Supported ROMs
 - Pong
