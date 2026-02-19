@@ -117,11 +117,10 @@ chip-8/
 
 ## 🎥 Demo
 
-Gameplay running inside the emulator:
+<p align="center">
+  <img src="chip-8.gif" width="600">
+</p>
 
-![CHIP-8 Pong](pong-demo.png)
-
----
 
 ## 🧠 Learning Outcomes
 
