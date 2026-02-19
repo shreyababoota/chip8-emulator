@@ -47,11 +47,27 @@ cmake --build .
 
 ## ▶️ Running the Emulator
 
-Run the emulator with a ROM file:
+Run the emulator from the **build** directory.
 
+### 🪟 Windows
 ```bash
-./chip8 path/to/rom.ch8
+.\chip8.exe <speed> <scale> "..\roms\game.ch8"
 ```
+
+**Example**
+```bash
+.\chip8.exe 15 2 "..\roms\Pong (1 player).ch8"
+```
+
+### 🐧 Linux / macOS
+```bash
+./chip8 <speed> <scale> ../roms/game.ch8
+```
+
+### Arguments
+
+- **speed** → CPU execution speed (higher = faster gameplay)  
+- **scale** → window size multiplier  
 
 ### Example
 
