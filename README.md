@@ -65,3 +65,7 @@ This project demonstrates:
 - Memory and stack management
 - Graphics rendering using SDL
 - Event-driven input handling
+
+## Demo
+
+![CHIP-8 Pong](pong-demo.png)
