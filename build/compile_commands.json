@@ -1,0 +1,14 @@
+[
+{
+  "directory": "C:/Users/Shreya Baboota/Downloads/chip-8/build",
+  "command": "C:\\MinGW\\bin\\g++.exe  @CMakeFiles/chip8.dir/includes_CXX.rsp -g -o CMakeFiles\\chip8.dir\\main.cpp.obj -c \"C:\\Users\\Shreya Baboota\\Downloads\\chip-8\\main.cpp\"",
+  "file": "C:/Users/Shreya Baboota/Downloads/chip-8/main.cpp",
+  "output": "CMakeFiles/chip8.dir/main.cpp.obj"
+},
+{
+  "directory": "C:/Users/Shreya Baboota/Downloads/chip-8/build",
+  "command": "C:\\MinGW\\bin\\g++.exe  @CMakeFiles/chip8.dir/includes_CXX.rsp -g -o CMakeFiles\\chip8.dir\\chip8.cpp.obj -c \"C:\\Users\\Shreya Baboota\\Downloads\\chip-8\\chip8.cpp\"",
+  "file": "C:/Users/Shreya Baboota/Downloads/chip-8/chip8.cpp",
+  "output": "CMakeFiles/chip8.dir/chip8.cpp.obj"
+}
+]
